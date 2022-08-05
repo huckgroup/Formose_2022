@@ -1,2 +1,44 @@
-# Formose_2022
-Data and analysis for "Trajectory-dependent Compositional Outcomes in a Prebiotic Reaction Network" (van Duppen, Robinson, Daines, Huck, 2022). 
+# Analysis Software Accompanying the Publication "Trajectory Dependent Compositional Outcomes of a Prebiotic Reaction Network"
+
+## Installation Instructions
+
+Using the anaconda package manager to install the following packages from the
+command line:
+
+```
+conda install scipy seaborn pip install statannotations
+```
+
+Change the paths `info_files/dir_data.csv`. `dir_extendend_data` is the path to
+the directory containing the extended data on your computer. `output_dir` is
+the path to the directory in which you would like analysis output files (plots
+and .csv results) stored on your computer.
+
+These scripts can be run from the command line from their parent directory:
+
+```
+python <script_name>.py
+```
+
+## Description of scripts
+
+### 01_composition_analysis.py
+
+Run this script to generate violin plots for series of data in Figure 2 and
+Figures S6-S11.
+
+### 02_time_trace_hierarchical_clustering.py
+
+This script performs hierarchical clustering of traces within each experiment.
+The outputs are dendrogram plots for each perturbed experimental condition.
+
+### 03_correlation_analysis.py
+
+This script performs the time-interval correlation analysis (see Materials and
+Methods). It outputs the results of the correlation analysis as a .csv file.
+
+### 04_compositional_shift.py
+
+This script generates plots indicating how groups of compounds respond
+collectively to applied perturbations.
+

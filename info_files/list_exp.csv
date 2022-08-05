@@ -1,0 +1,14 @@
+exp_name,directory,std_Ca(OH)2/ mM,rate_Ca(OH)2/ s,series,conc_HCHO/ mM,conc_DHA/ mM,conc_NaOH/ mM,conc_CaCl2l/ mM,residence_time/ s
+EXP001,Extended_data/EXP001/Analysed_data,0,0,cluster_analysis,50,50,30,15,120
+EXP002,Extended_data/EXP002/Analysed_data,2.89,45,cluster_analysis,50,50,30,15,120
+EXP003,Extended_data/EXP003/Analysed_data,5.75,45,cluster_analysis,50,50,30,15,120
+EXP004,Extended_data/EXP004/Analysed_data,0,0,cluster_analysis,20,50,30,15,120
+EXP005,Extended_data/EXP005/Analysed_data,2.89,45,cluster_analysis,20,50,30,15,120
+EXP006,Extended_data/EXP006/Analysed_data,5.75,45,cluster_analysis,20,50,30,15,120
+EXP007,Extended_data/EXP007/Analysed_data,0,0,cluster_analysis,100,50,30,15,120
+EXP008,Extended_data/EXP008/Analysed_data,2.89,45,cluster_analysis,100,50,30,15,120
+EXP009,Extended_data/EXP009/Analysed_data,5.75,45,cluster_analysis,100,50,30,15,120
+EXP010,Extended_data/EXP010/Analysed_data,0,0,cluster_analysis,50,50,30,15,120
+EXP011,Extended_data/EXP011/Analysed_data,5.75,120,cluster_analysis,50,50,30,15,120
+EXP012,Extended_data/EXP012/Analysed_data,5.75,45,cluster_analysis,50,50,30,15,120
+EXP013,Extended_data/EXP013/Analysed_data,5.75,120;60;30,cluster_analysis;corr_analysis,50,50,30,15,120
