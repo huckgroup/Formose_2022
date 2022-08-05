@@ -30,15 +30,16 @@ Figures S6-S11.
 ### 02_time_trace_hierarchical_clustering.py
 
 This script performs hierarchical clustering of traces within each experiment.
-The outputs are dendrogram plots for each perturbed experimental condition.
+The output is a dendrogram plot for EXP013, Figure 3b.
 
 ### 03_correlation_analysis.py
 
 This script performs the time-interval correlation analysis (see Materials and
-Methods). It outputs the results of the correlation analysis as a .csv file.
+Methods). It outputs the results of the correlation analysis as a .csv file,
+which is used to create Figure 3c.
 
 ### 04_compositional_shift.py
 
 This script generates plots indicating how groups of compounds respond
-collectively to applied perturbations.
+collectively to applied perturbations, used to create Figure 5a.
 
