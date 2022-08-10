@@ -2,11 +2,14 @@
 
 ## Installation Instructions
 
-Using the anaconda package manager to install the following packages from the
-command line:
+Using the anaconda package manager to create a virtual environment and install
+the following packages from the command line:
 
 ```
-conda install scipy seaborn pip install statannotations
+conda env create fnoise-env
+conda activate fnoise-env
+conda install scipy seaborn
+pip install statannotations
 ```
 
 Change the paths `info_files/dir_data.csv`. `dir_extendend_data` is the path to
