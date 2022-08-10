@@ -6,7 +6,7 @@ Using the anaconda package manager to create a virtual environment and install
 the following packages from the command line:
 
 ```
-conda env create fnoise-env
+conda create --name fnoise-env
 conda activate fnoise-env
 conda install scipy seaborn
 pip install statannotations
