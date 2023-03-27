@@ -1,4 +1,6 @@
-# Analysis Software Accompanying the Publication "Trajectory Dependent Compositional Outcomes of a Prebiotic Reaction Network"
+# Analysis Software Accompanying the Publication "Dynamic Environmental Conditions Affect the Composition of a Model Prebiotic Reaction Network"
+
+[Publication](https://pubs.acs.org/doi/10.1021/jacs.3c00908)
 
 ## Installation Instructions
 
